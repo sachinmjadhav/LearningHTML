@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <!-- input and label -->
+    <h3>Input and Label:</h3>
+    <label>Name:</label><input type="text" name="name">
+    <br><br><hr>
+
+
+
+    <!-- Select and Option -->
+    <h3>Select and Option Example:</h3>
+    <label>Cars:</label>
+    <select name="Cars">
+    	<option value="Honda">Honda</option>
+    	<option value="Hyundai">Hyundai</option>
+    	<option value="Tata">Tata</option>
+    	<option value="Maruti">Maruti</option>
+    </select>
+    <br><br><hr>
+
+
+
+    <!-- Textarea -->
+    <h3>Text Area Example:</h3>
+	<form>    
+	    <textarea name="text" rows="10" cols="30">Hello World!&nbsp;</textarea><br>
+		<input type="Submit">
+	</form>
+	<br><br><hr>
+
+
+
+    <!-- button -->
+    <h3>Button Example:</h3>
+    <form>
+    	<button type="button" onclick="alert('Successfully Clicked!')">Click Me</button>
+    </form>
+    <br><br><hr>
+
+
+
+    <!-- datalist -->
+    <h3>Datalist Example:</h3>
+    <form>
+    	<label>Select your preferred browser:</label>
+    	<input list="browsers" name="browsers">
+    	<datalist id="browsers">
+    		<option value="Chrome">
+    		<option value="Firefox">
+    		<option value="Internet Explorer">
+    		<option value="Opera">
+    	</datalist>
+    	<input type="Submit">
+    </form>
+
+</body>
+</html>
