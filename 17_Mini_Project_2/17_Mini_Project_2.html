@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Online Job Application Form</title>
+    <link rel="icon" href="img/job.png">
+    <title>Job Application Form</title>
     <style>
     	* {
     		padding: 0px;
     		margin: 0px;
     	}
     	body {
-    		background-color: gray;
-    		color: white;
+    		background-color: #a0a0a0;
+    		color: black;
     	}
     	table, td {
     		padding: 7px;
     		text-align: center;
+    	}
+    	h2 {
+    		color: white;
+    	}
+    	h1 {
+    		color: white;
     	}
     	#form {
     		padding-top: 7px;
@@ -23,100 +30,105 @@
 </head>
 <body>
 <div id="form">
-	<h1 align="center" style="padding:7px">Job Application Form</h1>
+	<h1 align="center" style="padding:7px; text-shadow: 2px 2px 5px black;">Job Application Form</h1>
 	<br><hr>	
 	
-	<h2 style="background-color: black; padding: 7px;">Personal Information: </h3><br>
+	<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white">Personal Information: </h3><br>
 	<div id="personal_info">
 		<form>
 			<table width="100%">
 				<tbody>
 				<tr>
 					<td>
-						<label for="name">First name: </label>
-						<input type="text" name="name" id="name">
+						<label for="name"><b>First name: </b></label>
+						<input type="text" name="name" id="name" style="box-shadow: 1px 1px 1px black">
 					</td>
 					<td>
-						<label for="mid_name">Middle Name: </label>
-						<input type="text" name="mid_name" id="mid_name">
+						<label for="mid_name"><b>Middle Name: </b></label>
+						<input type="text" name="mid_name" id="mid_name" style="box-shadow: 1px 1px 1px black">
 					</td>
 					<td>
-						<label for="last_name">Last Name: </label>
-						<input type="text" name="last_name" id="last_name">
+						<label for="last_name"><b>Last Name: </b></label>
+						<input type="text" name="last_name" id="last_name" style="box-shadow: 1px 1px 1px black">
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<label for="father_name">Father's name: </label>
-						<input type="text" name="father_name" id="father_name">
+						<label for="father_name"><b>Father's Name: </b></label>
+						<input type="text" name="father_name" id="father_name" style="box-shadow: 1px 1px 1px black">
 					</td>
 					<td>
-						<label for="mother_name">Mother's name: </label>
-						<input type="text" name="mother_name" id="mother_name">
+						<label for="mother_name"><b>Mother's Name: </b></label>
+						<input type="text" name="mother_name" id="mother_name" style="box-shadow: 1px 1px 1px black">
 					</td>
 				</tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
+				<tr></tr>
 				<tr>
-						<td><label>Current Address: </label></td>
-						<td><label>Permanent Address: </label></td>
+						<td><label><b>Current Address: </b></label></td>
+						<td><label><b>Permanent Address: </b></label></td>
 				</tr>
 				<tr>
-					<td><textarea rows="10" cols="50"></textarea></td>			
-					<td><textarea rows="10" cols="50"></textarea></td>
+					<td><textarea rows="10" cols="50" style="box-shadow: 1px 1px 1px black"></textarea></td>			
+					<td><textarea rows="10" cols="50" style="box-shadow: 1px 1px 1px black"></textarea></td>
 				</tr>
 				<tr>
 					<td><b>Phone Number - </b></td>
 				</tr>
 				<tr>
-					<td>Home Phone Number: </td>
-					<td><input type="number" placeholder="Ext"><td>
-					<td><input type="number" placeholder="Phone Number"></td>
+					<td><b>Home Phone Number: </b></td>
+					<td><input type="number" placeholder="Ext" style="box-shadow: 1px 1px 1px black"><td>
+					<td><input type="number" placeholder="Phone Number" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 				<tr>
-					<td>Mobile Number: </td>
-					<td><input type="number" name="mobile-number" size="10"></td>
+					<td><b>Mobile Number: </b></td>
+					<td><input type="number" name="mobile-number" size="10" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 				<tr>
-					<td>Date of Birth: <input type="date"></td>
-					<td>Place of Birth: <input type="text"</td>
+					<td><b>Date of Birth: </b><input type="date" style="box-shadow: 1px 1px 1px black"></td>
+					<td><b>Place of Birth: </b><input type="text" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 				<tr>
-					<td>Gender:</td>
+					<td><b>Gender:</b></td>
 					<td><input type="radio" name="gender" value="Male" checked> Male </td>
 					<td><input type="radio" name="gender" value="Female"> Female </td>
 				</tr>	
 				<tr>
-					<td>Highest Qualification: <input type="text" name="Qualification"></td>
-					<td>Year of Passing: <input type="month" name="date"></td>
+					<td><b>Highest Qualification: </b><input type="text" name="Qualification"></td>
+					<td><b>Year of Passing: </b><input type="month" name="date"></td>
 				</tr>
 				<tr>
-					<td><label>Languages Known: </label></td>
+					<td><label><b>Languages Known: </b></label></td>
 					<td><input type="checkbox" value="Hindi"> Hindi</td>
 					<td><input type="checkbox" value="Telugu"> Telugu</td>
 					<td><input type="checkbox" value="English"> English</td>
 				</tr>
 				<tr>
-					<td><label>Your Hobbies: </label></td>
+					<td><label><b>Your Hobbies: </b></label></td>
 					<td><input type="checkbox" value="cricket"> Playing Cricket</td>
 					<td><input type="checkbox" value="movies"> Watching Movies</td>
 					<td><input type="checkbox" value="coding"> Practicing Coding</td>
 				</tr>
 				<tr>
-					<td><label>About Yourself: </label></td>
-					<td><textarea rows="10" cols="40"></textarea></td>
+					<td><label><b>About Yourself: </b></label></td>
+					<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
 				</tr>
 				<tr>
-					<td><label>Nationality:</label></td>
-					<td><select name="nationality">
+					<td><label><b>Nationality:</b></label></td>
+					<td><select name="nationality" style="box-shadow: 1px 1px 1px black">
 						<option value="Indian">Indian</option>
 						<option value="American">American</option>
 						<option value="Other">Other</option>
 					</select></td>
 				</tr>
 				<tr>
-					<td>Aadhar Number: </td>
-					<td><input type="text"></td>
-					<td>PAN Number: </td>
-					<td><input type="text"></td>
+					<td><b>Aadhar Number: </b></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><b>PAN Number: </b></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>			
 				</tbody>
 			</table>
@@ -124,7 +136,7 @@
 	</div>
 	<br><hr>
 
-	<h2 style="background-color: black; padding: 7px;">Educational Qualification: </h2><br>
+	<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white;">Educational Qualification: </h2><br>
 	<div id="edu_qual">
 		<form>
 			<table width="100%">
@@ -137,106 +149,106 @@
 				</tr>
 				<tr>
 					<th>1</th>
-					<td><input type="text"></td>
-					<td><input type="text"></td>
-					<td><input type="month"></td>
-					<td><input type="number" max="100" min="0"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="month" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="number" max="100" min="0" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 				<tr>
 					<th>2</th>
-					<td><input type="text"></td>
-					<td><input type="text"></td>
-					<td><input type="month"></td>
-					<td><input type="number" max="100" min="0"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="month" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="number" max="100" min="0" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 				<tr>
 					<th>3</th>
-					<td><input type="text"></td>
-					<td><input type="text"></td>
-					<td><input type="month"></td>
-					<td><input type="number" max="100" min="0"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="text" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="month" style="box-shadow: 1px 1px 1px black"></td>
+					<td><input type="number" max="100" min="0" style="box-shadow: 1px 1px 1px black"></td>
 				</tr>
 			</table>
 		</form>
 	</div>
 	<hr>
 	<div>
-		<h2 style="background-color: black; padding: 7px;">Work Experience 1:</h2><br>
+		<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white;">Work Experience 1:</h2><br>
 		<table width="100%">
 			<tr>
 				<th>S.No.</th>
 				<th>Company Address</th>
 				<th>Work / Roles</th>
-				<th>Duration (from - to)</th>
+				<th>Duration (from - to):</th>
 			</tr>
 			<tr>
 				<td>1</td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><input type="month"><input type="month"></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><input type="month" style="box-shadow: 1px 1px 1px black">&nbsp;<input type="month" style="box-shadow: 1px 1px 1px black"></td>
 			</tr>
 		</table>
 	</div>
 	<hr>
 	<div>
-		<h2 style="background-color: black; padding: 7px">Work Experience 2:</h2><br>
+		<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white">Work Experience 2:</h2><br>
 		<table width="100%">
 			<tr>
 				<th>S.No.</th>
 				<th>Company Address</th>
 				<th>Work / Roles</th>
-				<th>Duration (from - to)</th>
+				<th>Duration (from - to):</th>
 			</tr>
 			<tr>
 				<td>1</td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><input type="month"><input type="month"></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><input type="month" style="box-shadow: 1px 1px 1px black">&nbsp;<input type="month" style="box-shadow: 1px 1px 1px black"></td>
 			</tr>
 		</table>
 	</div>
 	<hr>
 	<div>
-		<h2 style="background-color: black; padding: 7px">Work Experience 3:</h2><br>
+		<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white">Work Experience 3:</h2><br>
 		<table width="100%">
 			<tr>
 				<th>S.No.</th>
 				<th>Company Address</th>
 				<th>Work / Roles</th>
-				<th>Duration (from - to)</th>
+				<th>Duration (from - to):</th>
 			</tr>
 			<tr>
 				<td>1</td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><textarea rows="10" cols="40"></textarea></td>
-				<td><input type="month"><input type="month"></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><textarea rows="10" cols="40" style="box-shadow: 1px 1px 1px black"></textarea></td>
+				<td><input type="month" style="box-shadow: 1px 1px 1px black">&nbsp;<input type="month" style="box-shadow: 1px 1px 1px black"></td>
 			</tr>
 		</table>
 	</div>
 	<hr>
 	<div>
-		<h2 style="background-color: black; padding: 7px;">Other Details:</h2><br>
+		<h2 style="background-color: black; padding: 7px; text-shadow: 1px 1px 25px white;">Other Details:</h2><br>
 		<table width="100%">
 			<tr>
-				<td>Job Type: </td>
+				<td><b>Job Type: </b></td>
 				<td><input type="checkbox" value="permanent"> Permanent</td>
 				<td><input type="checkbox" value="contract"> Contract</td>
 				<td><input type="checkbox" value="other"> Other</td>
 			</tr>
 			<tr>
-				<td>Date of Joining:</td>
-				<td><input type="date"></td>
+				<td><b>Date of Joining:</b></td>
+				<td><input type="date" style="box-shadow: 1px 1px 1px black"></td>
 				<td>Time of Joining</td>
-				<td><input type="time"></td>
+				<td><input type="time" style="box-shadow: 1px 1px 1px black"></td>
 			</tr>
 			<tr>
-				<td>Preferred Job Location:</td>
+				<td><b>Preferred Job Location:</b></td>
 				<td><input type="radio" value="hyderabad" name="job_location"> Hyderabad</td>
 				<td><input type="radio" value="bangaluru" name="job_location"> Bengaluru</td>
 				<td><input type="radio" value="chennai" name="job_location"> Chennai</td>
 			</tr>
 			<tr>
-				<td>Willing to relocate to Hyderabad:</td>
+				<td><b>Willing to relocate to Hyderabad:</b></td>
 				<td><input type="radio" value="yes" name="relocation"> Yes</td>
 				<td><input type="radio" value="no" name="relocation"> No</td>
 			</tr>
@@ -250,7 +262,7 @@
 				consequat.</p></td>
 			</tr>	
 			<tr>
-				<td colspan="2"><pre><input type="submit">&#9;<input type="reset"></pre></td>
+				<td colspan="2"><pre><input type="submit" style="box-shadow: 1px 1px 1px black">&#9;<input type="reset" style="box-shadow: 1px 1px 1px black"></pre></td>
 			</tr>
 		</table>
 	</div>
