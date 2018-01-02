@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <!-- input attributes value , readonly , size , rows , cols-->
+    <div>
+    	<label for="username">Username</label>
+    	<input type="text" id="username" value="Sachin">
+    	<input type="submit" value="Send">
+    </div><br><br>
+
+    <!-- Read Only -->
+    <h3>Read-Only Atribute</h3>
+	<div>
+		<label for="username">Username</label>
+		<input type="next" id="username" value="Sachin" readonly="">
+		<input type="Submit" name="submit" value="Send">
+	</div><br><hr>
+
+
+	<!-- Size Attribute -->
+	<h3>Size Atribute</h3>
+	<div>
+    	<label for="username">Username</label>
+    	<input type="text" id="username" value="Sachin" size="50">
+    	<input type="submit" value="Send">
+    </div><br><hr>
+
+
+    <!-- Rows / Columns -->
+    <h3>Rows / Cols Atribute</h3>
+    <div>
+    	<label for="message">Username</label>
+    	<textarea rows="10" cols="20" id="message"></textarea>
+    	<input type="submit" value="Send">
+    </div>
+	<br><br><br>
+    <!-- HTML 5 Form Attributes required ,
+    no-validate , autofocus , pattern , placeholder -->
+	
+	<!-- Required Atrribute -->
+	<h3>Required Atribute</h3>
+	<div>
+		<form>
+			<label for="username">Username</label>
+			<span style="color: red"><sup>*</sup></span>
+			<input type="text" id="username" required="">
+			<input type="submit" value="Send">
+		</form>
+	</div><br><hr>
+
+	<!-- novalidate -> is used for not to apply HTML5 default validation. This is applied for form elements -->
+	<h3>Novalidate Atribute</h3>
+	<div>
+		<form novalidate="">
+			<label for="username">Username</label>
+			<span style="color: red"><sup>*</sup></span>
+			<input type="text" id="username" required="">
+			<input type="submit" value="Send">
+		</form>
+	</div><br><hr>
+
+	<!-- Autofocus Atrribute -->
+	<!-- this is used to apply automatic focus to any HTML input page -->
+	
+	<h3>Autofocus Atribute</h3>
+	<div>
+		<form>
+			<label for="name">Your Name</label>
+			<input type="text" id="name" autofocus="">
+			<label for="password">Password</label>
+			<input type="password" id="password">
+			<input type="Submit">
+		</form>
+	</div><br><hr>
+
+	<!-- Pattern Atrribute -->
+	<!-- HTML5pattern.com -->
+	<!-- it is used to apply our own pattern for html form validation -->
+	
+	<h3>Pattern Atribute</h3>
+	<div>
+		<form>
+			<label for="name">Your name</label>
+			<input type="text" id="name" pattern="^[A-Za-z0-9_]{1,15}$" >
+			<input type="Submit">
+		</form>
+	</div><br><hr>
+
+	<!-- Placeholder Atrribute -->
+	<h3>Placeholder Atribute</h3>
+	<div>
+		<form>
+			<label for="name">Username</label>
+			<input type="text" id="name" placeholder="Enter Name">
+			<label for="password">Password</label>
+			<input type="password" id="password">
+			<input type="Submit" name="">
+		</form>
+	</div><br><hr>
+
+	<!-- Disabled Atrribute -->
+	<h3>Disabled Atribute</h3>
+	<div>
+		<form>
+			<label for="name">Username</label>
+			<input type="text" id="name" placeholder="Enter Name" disabled="">
+			<input type="Submit" name="" disabled="">
+		</form>
+	</div><br><hr>
+
+
+</body>
+</html>
