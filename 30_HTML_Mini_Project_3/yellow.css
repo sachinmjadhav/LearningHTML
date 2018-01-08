@@ -1,0 +1,125 @@
+body {
+	font-family: "Helvetica", sans-serif;
+	margin: 0;
+}
+
+header, footer {
+	background-color: #fafa00;
+	color: darkgreen;
+	padding: 10px;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: red;
+}
+
+aside {
+	float: left;
+}
+
+aside ul {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	background-color: #f66611;
+}
+
+li a {
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	color: yellow;
+}
+
+li a:hover {
+	background-color: #ffff77;
+	color: black;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #f9f977;
+	color: red;
+}
+
+section {
+	margin-left: 200px;
+	border-left: 2px solid #f66611;
+	padding: 20px;
+}
+
+div h3 {
+	color: #949400;
+}
+
+details {
+	background-color: #f1f100;
+	color: darkgreen;
+	padding: 20px;
+	margin: 5px;
+}
+
+details div {
+	background-color: white;
+	color: black;
+	padding: 10px;
+	margin: 5px;
+}
+
+/*Buttons Section*/
+
+#button-section {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#teal {
+	background-color: teal;
+	color: white;
+	border: none;
+	padding: 14px 20px;
+	cursor: pointer;
+}
+
+#green {
+	background-color: green;
+	color: white;
+	border: none;
+	padding: 14px 20px;
+	cursor: pointer;
+}
+
+#yellow {
+	background-color: #fafa22;
+	color: white;
+	border: none;
+	padding: 14px 20px;
+	cursor: pointer;
+}
+
+
+#red {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 14px 20px;
+	cursor: pointer;
+}
+
+#teal:hover {
+	font-size: 20px;
+}
+
+#green:hover {
+	font-size: 20px;
+}
+
+#yellow:hover {
+	font-size: 20px;
+}
+
+#red:hover {
+	font-size: 20px;
+}
